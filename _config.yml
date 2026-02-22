@@ -88,10 +88,10 @@ publication_category:
   #   title: 'Books'
   manuscripts:
     title: 'Bayesian Inference of Gene Regulatory Networks at Stochastic Steady State'    
-  conferences:
-    title: 'Conference Papers'
-  journal_articles:
-    title: 'Journal Articles'
+  # conferences:
+    # title: 'Conference Papers'
+  # journal_articles:
+    # title: 'Journal Articles'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
