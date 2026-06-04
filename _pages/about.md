@@ -20,7 +20,7 @@ redirect_from:
   box-shadow: 0 1px 3px rgba(0,0,0,0.06);
 }
 .rss-board__bar {
-  background: linear-gradient(#fb923c, #ee802f);
+  background: linear-gradient(#fb923c, #2f62ee);
   color: #fff;
   padding: 8px 14px;
   font-weight: 700;
