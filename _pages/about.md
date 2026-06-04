@@ -57,12 +57,24 @@ redirect_from:
 }
 .rss-board__feed .item { color: #3a424c; }
 .rss-board__feed .item a { font-family: inherit; }
+
+/* On phones: drop the float and move the board BELOW the about text */
 @media (max-width: 768px) {
-  .rss-board { float: none; width: auto; max-width: none; margin: 2em 0; }
+  .about-wrap { display: flex; flex-direction: column; }
+  .about-wrap .about-text { order: 1; }
+  .about-wrap .rss-board {
+    order: 2;
+    float: none;
+    width: auto;
+    max-width: none;
+    margin: 2em 0 0;
+  }
 }
 </style>
 
-<div class="rss-board" markdown="0">
+<div class="about-wrap" markdown="0">
+
+<div class="rss-board">
   <div class="rss-board__bar"><span class="dot"></span> NEWS &amp; UPDATES</div>
   <!-- To add an update: copy a <li> line, change the date and text. Newest goes on top. -->
   <ul class="rss-board__feed">
@@ -72,12 +84,19 @@ redirect_from:
   </ul>
 </div>
 
+<div class="about-text" markdown="1">
+
 I am a Ph.D. candidate in Applied Mathematics at the University of Houston, driven by a curiosity about how complex systems organize, adapt, and regulate themselves. My work lies at the intersection of probability, computation, and biology, where I develop mathematically grounded models for stochastic systems and data-driven inference. I am particularly interested in Bayesian methods, reinforcement learning for scientific computing, and the emerging area of biocomputing — exploring how biological systems can inform new computational paradigms.
 
-My research spans two main directions. 
-- In one line of work, I develop Bayesian frameworks for inferring gene regulatory networks, recovering how genes interact and regulate one another using stochastic models of gene expression. 
-- In another, I investigate how reinforcement learning can be used to adapt and improve Hamiltonian Monte Carlo, enhancing the efficiency and stability of high-dimensional Bayesian inference. 
+My research spans two main directions.
+
+- In one line of work, I develop Bayesian frameworks for inferring gene regulatory networks, recovering how genes interact and regulate one another using stochastic models of gene expression.
+- In another, I investigate how reinforcement learning can be used to adapt and improve Hamiltonian Monte Carlo, enhancing the efficiency and stability of high-dimensional Bayesian inference.
 
 Together, these projects reflect my broader goal of building interpretable, scalable algorithms for scientific discovery.
 
 Outside of research, I enjoy dancing, cooking, reading fiction, traveling, and occasionally unwinding with a good Netflix series. I value both analytical rigor and creative expression — whether I’m building mathematical models, experimenting in the kitchen, or getting lost in a compelling story.
+
+</div>
+
+</div>
