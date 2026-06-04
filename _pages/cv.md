@@ -46,7 +46,7 @@ redirect_from:
 
 <div class="cv" markdown="0">
 
-<h2>🎓 Education</h2>
+<h2>Education</h2>
 
 <div class="entry"><span class="where">University of Houston</span><span class="when">Expected May 2027</span></div>
 <p class="role">Ph.D. in Applied Mathematics &middot; Houston, TX</p>
