@@ -51,7 +51,7 @@ redirect_from:
 .rss-board__feed li:last-child { border-bottom: none; }
 .rss-board__feed .date {
   display: block;
-  color: #ee802f;
+  color: #2f62ee;
   font-weight: 700;
   margin-bottom: 2px;
 }
@@ -75,12 +75,12 @@ redirect_from:
 <div class="about-wrap" markdown="0">
 
 <div class="rss-board">
-  <div class="rss-board__bar"><span class="dot"></span> NEWS &amp; UPDATES</div>
+  <div class="rss-board__bar"><span class="dot"></span> What I am doing</div>
   <!-- To add an update: copy a <li> line, change the date and text. Newest goes on top. -->
   <ul class="rss-board__feed">
+    <li><span class="date">2026-06</span><span class="item">Attending Workshops <strong>Vice President</strong> of the AMS UH Student Chapter.</span></li>
     <li><span class="date">2026-01</span><span class="item">Our paper <em>“Bayesian Inference of Gene Regulatory Networks at Stochastic Steady State”</em> was accepted (in press) at the <strong>Journal of the Royal Society Interface</strong>.</span></li>
     <li><span class="date">2025-09</span><span class="item">Began my term as <strong>Vice President</strong> of the AMS UH Student Chapter.</span></li>
-    <li><span class="date">2025-06</span><span class="item">Started a summer research internship at the <strong>Institute for Basic Science (IBS)</strong>, Daejeon, South Korea, working on RL-driven adaptive HMC.</span></li>
   </ul>
 </div>
 
