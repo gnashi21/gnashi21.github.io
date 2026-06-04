@@ -12,12 +12,17 @@ redirect_from:
 <style>
 .cv { line-height: 1.5; }
 .cv h2 {
-  border-bottom: 2px solid #e3e8ee;
-  padding-bottom: 0.3em;
-  margin-top: 1.6em;
-  margin-bottom: 0.8em;
-  font-size: 1.35em;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  font-size: 0.95em;
+  font-weight: 700;
+  color: #4a6b8a;
+  border-bottom: 1px solid #e3e8ee;
+  padding-bottom: 0.35em;
+  margin-top: 2em;
+  margin-bottom: 0.9em;
 }
+.cv h2:first-of-type { margin-top: 0.8em; }
 .cv .entry {
   display: flex;
   justify-content: space-between;
@@ -97,15 +102,11 @@ redirect_from:
   <span class="tag">Computational Biology</span><span class="tag">Systems Biology</span><span class="tag">Gene Regulatory Networks</span><span class="tag">Computational Neuroscience</span><span class="tag">Scientific Machine Learning</span>
 </div>
 
-</div>
+<h2>Publications</h2>
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-<div class="cv" markdown="0">
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
 
 <h2>Teaching</h2>
 
