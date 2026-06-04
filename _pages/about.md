@@ -7,22 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate in Applied Mathematics at the University of Houston, driven by a curiosity about how complex systems organize, adapt, and regulate themselves. My work lies at the intersection of probability, computation, and biology, where I develop mathematically grounded models for stochastic systems and data-driven inference. I am particularly interested in Bayesian methods, reinforcement learning for scientific computing, and the emerging area of biocomputing — exploring how biological systems can inform new computational paradigms.
-
-My research spans two main directions. 
-- In one line of work, I develop Bayesian frameworks for inferring gene regulatory networks, recovering how genes interact and regulate one another using stochastic models of gene expression. 
-- In another, I investigate how reinforcement learning can be used to adapt and improve Hamiltonian Monte Carlo, enhancing the efficiency and stability of high-dimensional Bayesian inference. 
-
-Together, these projects reflect my broader goal of building interpretable, scalable algorithms for scientific discovery.
-
-Outside of research, I enjoy dancing, cooking, reading fiction, traveling, and occasionally unwinding with a good Netflix series. I value both analytical rigor and creative expression — whether I’m building mathematical models, experimenting in the kitchen, or getting lost in a compelling story.
-
 <style>
 .rss-board {
+  float: right;
+  width: 300px;
+  max-width: 42%;
+  margin: 0.3em 0 1.2em 1.8em;
   border: 1px solid #d6dbe1;
   border-radius: 6px;
   overflow: hidden;
-  margin: 2em 0;
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
   box-shadow: 0 1px 3px rgba(0,0,0,0.06);
 }
@@ -42,7 +35,7 @@ Outside of research, I enjoy dancing, cooking, reading fiction, traveling, and o
   background: #fff; box-shadow: 0 0 0 3px rgba(255,255,255,0.35);
 }
 .rss-board__feed {
-  max-height: 260px;
+  max-height: 320px;
   overflow-y: auto;
   margin: 0;
   padding: 0;
@@ -50,22 +43,23 @@ Outside of research, I enjoy dancing, cooking, reading fiction, traveling, and o
   background: #fbfcfd;
 }
 .rss-board__feed li {
-  display: flex;
-  gap: 12px;
   padding: 10px 14px;
   border-bottom: 1px solid #eef1f4;
-  font-size: 0.88em;
+  font-size: 0.82em;
   line-height: 1.45;
 }
 .rss-board__feed li:last-child { border-bottom: none; }
 .rss-board__feed .date {
-  flex: 0 0 auto;
+  display: block;
   color: #ee802f;
   font-weight: 700;
-  white-space: nowrap;
+  margin-bottom: 2px;
 }
 .rss-board__feed .item { color: #3a424c; }
 .rss-board__feed .item a { font-family: inherit; }
+@media (max-width: 768px) {
+  .rss-board { float: none; width: auto; max-width: none; margin: 2em 0; }
+}
 </style>
 
 <div class="rss-board" markdown="0">
@@ -77,3 +71,13 @@ Outside of research, I enjoy dancing, cooking, reading fiction, traveling, and o
     <li><span class="date">2025-06</span><span class="item">Started a summer research internship at the <strong>Institute for Basic Science (IBS)</strong>, Daejeon, South Korea, working on RL-driven adaptive HMC.</span></li>
   </ul>
 </div>
+
+I am a Ph.D. candidate in Applied Mathematics at the University of Houston, driven by a curiosity about how complex systems organize, adapt, and regulate themselves. My work lies at the intersection of probability, computation, and biology, where I develop mathematically grounded models for stochastic systems and data-driven inference. I am particularly interested in Bayesian methods, reinforcement learning for scientific computing, and the emerging area of biocomputing — exploring how biological systems can inform new computational paradigms.
+
+My research spans two main directions. 
+- In one line of work, I develop Bayesian frameworks for inferring gene regulatory networks, recovering how genes interact and regulate one another using stochastic models of gene expression. 
+- In another, I investigate how reinforcement learning can be used to adapt and improve Hamiltonian Monte Carlo, enhancing the efficiency and stability of high-dimensional Bayesian inference. 
+
+Together, these projects reflect my broader goal of building interpretable, scalable algorithms for scientific discovery.
+
+Outside of research, I enjoy dancing, cooking, reading fiction, traveling, and occasionally unwinding with a good Netflix series. I value both analytical rigor and creative expression — whether I’m building mathematical models, experimenting in the kitchen, or getting lost in a compelling story.
