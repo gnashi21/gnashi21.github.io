@@ -57,7 +57,7 @@ redirect_from:
 <div class="entry"><span class="where">Janki Devi Memorial College, University of Delhi</span><span class="when">2018</span></div>
 <p class="role">B.S. (Honors) in Mathematics &middot; New Delhi, India</p>
 
-<h2>🔬 Research Experience</h2>
+<h2>Research Experience</h2>
 
 <div class="entry"><span class="where">Institute for Basic Science (IBS)</span><span class="when">Jun – Aug 2025</span></div>
 <p class="role">Research Intern &middot; Daejeon, South Korea</p>
@@ -75,7 +75,7 @@ redirect_from:
   <li><span class="lead">Biocomputing —</span> Developing mathematical and stochastic models for an ongoing biocomputing project, supporting biologically grounded simulations and downstream computational analysis.</li>
 </ul>
 
-<h2>🛠️ Skills</h2>
+<h2>Skills</h2>
 
 <span class="group-label">Mathematical &amp; Statistical Methods</span>
 <div class="tags">
@@ -107,7 +107,7 @@ Publications
 
 <div class="cv" markdown="0">
 
-<h2>👩‍🏫 Teaching</h2>
+<h2>Teaching</h2>
 
 <div class="entry"><span class="where">University of Houston</span><span class="when">Fall 2022 – Present</span></div>
 <p class="role">Graduate Teaching Assistant &middot; Houston, TX</p>
@@ -115,14 +115,14 @@ Publications
   <li>Courses: Calculus, Graph Theory, Statistics for Data Science, Numerical Methods.</li>
 </ul>
 
-<h2>🏆 Awards</h2>
+<h2>Awards</h2>
 
 <div class="entry"><span class="where">Graduate Tuition Fellowship, University of Houston</span><span class="when">2022 – Present</span></div>
 <p class="role">Competitive merit-based funding for doctoral researchers</p>
 
 <div class="entry"><span class="where">Academic Excellence Award, University of Delhi</span><span class="when">2018</span></div>
 
-<h2>🤝 Service &amp; Leadership</h2>
+<h2>Service &amp; Leadership</h2>
 
 <div class="entry"><span class="where">American Mathematical Society — UH Chapter</span><span class="when">2022 – Present</span></div>
 <p class="role">Vice President (Fall 2025 – Present) &middot; Webmaster (2024 – 2025) &middot; Secretary (2022 – 2024)</p>
