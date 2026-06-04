@@ -81,7 +81,7 @@ redirect_from:
     <li><span class="date">2026-07</span><span class="item">Presenting a contributed talk at the <strong>SIAM Conference on the Life Sciences (LS26)</strong> and a poster at the <strong>SIAM Annual Meeting (AN26)</strong>.</span></li>
     <li><span class="date">2026-06</span><span class="item">Selected to attend the <strong>Graduate Student Mathematical Modeling Camp (GSMMC)</strong> and <strong>Mathematical Problems in Industry (MPI) Workshop</strong> at Drexel University.</span></li>
     <li><span class="date">2026-06</span><span class="item">Attending the <strong>Stochastic Dynamics in Biology Summer School 2026</strong>.</span></li>
-    <li><span class="date">2026-01</span><span class="item">Paper accepted at the <strong>Journal of the Royal Society Interface</strong>.</span></li>
+    <li><span class="date">2026-05</span><span class="item">Paper accepted at the <strong>Journal of the Royal Society Interface</strong>.</span></li>
     <li><span class="date">2025-09</span><span class="item">Began term as <strong>Vice President</strong>, AMS Student Chapter, University of Houston.</span></li>
   </ul>
 </div>
